@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="Itemaaa" />
+        <item
+            android:icon="@android:drawable/btn_minus"
+            android:title="Itembbb" />
+        <item
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Itemccc" />
+    </group>
+    <item android:title="Itemffff" >
+        <menu >
+            <item
+                android:icon="@android:drawable/ic_btn_speak_now"
+                android:title="Itemgggg" />
+            <item
+                android:icon="@android:drawable/ic_delete"
+                android:title="Itemhhhh" />
+        </menu>
+    </item>
+    <group >
+        <item android:title="Itemddd" />
+        <item
+            android:id="@+id/test1"
+            android:title="close nav" />
+    </group>
+</menu>
